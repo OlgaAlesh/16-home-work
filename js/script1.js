@@ -1,3 +1,5 @@
+// task 2
+
 let a1;
 a1 = 5%3;
 console.log(a1);
