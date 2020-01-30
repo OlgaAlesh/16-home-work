@@ -1,8 +1,8 @@
 // task 5
 
 let rad = "5см",
-    SKruga;
+    SKruga=function(){
+        console.log(parseFloat(314e-2) * Math.pow(parseInt(rad),2));
+    };
 
-SKruga = parseFloat(314e-2) * Math.pow(parseInt(rad),2);
-
-console.log(SKruga);
+SKruga();
